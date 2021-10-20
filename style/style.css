@@ -1,0 +1,105 @@
+/* reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* common */
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 100px;
+    padding: 0 20px;
+    width: 100%;
+    position: fixed; 
+    z-index: 10;
+}
+/* logo */
+.topHeader {
+    /* border: 1px solid blue; */
+    height: 60px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxTopHeader {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+.textPrivacy {
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    /* border: 1px solid blue; */
+}
+.boxLogo {
+    height: 25px;
+    /* border: 1px solid blue; */
+}
+.boxLogo img {
+    height: 100%;
+}
+.icon {
+    background-color: violet;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+}
+/* nav */
+nav {
+    height: 40px;
+}
+ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: grey;
+}
+ul li a:hover {
+    color: rgb(39 106 227 / 87%);
+}
+
+/* MAIN */
+main {
+    width: 50%;
+    /* height: 2000px; */
+    margin: 0 auto;
+    padding-top: 100px;
+    /* background-color: lightgrey; */
+}
+main section {
+    margin: 80px 0;
+}
+section h2 {
+    font-family: 'Google Sans',sans-serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #3c4043;
+}
+section p {
+    color: rgba(0,0,0,0.87);
+    font-size: 14px;
+    font-weight: 400;
+}
